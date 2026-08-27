@@ -717,3 +717,37 @@ nav a:hover {
         text-align: center;
     }
 }
+
+/* --- Ícones (SVG) --- */
+.logo img,
+.card-header img {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.card-problema ul li img,
+.card-solucao ul li img {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-top: 2px; /* alinha com a primeira linha do texto */
+}
+
+.recurso-item img {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    margin-top: 4px;
+}
+
+.contato-links img {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.footer-logo img {
+    width: 24px;
+    height: 24px;
+}
