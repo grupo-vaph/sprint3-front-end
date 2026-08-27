@@ -45,12 +45,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const recursoItems = document.querySelectorAll('.recurso-item');
     const imagemGaleria = document.querySelector('.galeria-imagem img');
 
-    // TODO: lembrar de colocar os caminhos das imagens certas aqui depois
+    // mesma ordem dos .recurso-item no html
     const imagensGaleria = [
-        "./src/assets/img/galeria-scanner.jpg",
-        "./src/assets/img/galeria-ia.jpg",
-        "./src/assets/img/galeria-pasta.jpg",
-        "./src/assets/img/galeria-pet.jpg"
+        "./src/assets/img/galeria/8_27_2026_15_3_2_contentcore.xyz.png",   // Scanner & OCR
+        "./src/assets/img/galeria/8_27_2026_14_41_41_contentcore.xyz.png", // IA Contextual
+        "./src/assets/img/galeria/8_27_2026_15_6_16_contentcore.xyz.png"   // Organização Inteligente
     ];
 
     if (imagemGaleria) {
