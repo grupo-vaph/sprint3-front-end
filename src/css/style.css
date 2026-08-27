@@ -404,13 +404,16 @@ nav a:hover {
 
 /* --- Nossa Equipe --- */
 .cards-equipe {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 5 membros: cabem em 1 linha no desktop; se quebrar, a sobra fica centralizada */
     gap: 28px; 
     margin-top: 56px;
 }
 
 .membro-card {
+    flex: 1 1 220px;
+    max-width: 300px;
     background: var(--bg-white);
     padding: 40px 24px; 
     border-radius: var(--radius-md);
@@ -636,10 +639,6 @@ nav a:hover {
         grid-template-columns: repeat(2, 1fr);
     }
     
-    .cards-equipe {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
     .hero-image {
         margin-top: 40px;
     }
@@ -706,8 +705,13 @@ nav a:hover {
         padding: 32px 24px;
     }
 
-    .estatisticas-grid, .cards-equipe {
+    .estatisticas-grid {
         grid-template-columns: 1fr;
+    }
+
+    .membro-card {
+        flex-basis: 100%;
+        max-width: 100%;
     }
     
     .form-row {
