@@ -8,149 +8,286 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#incio">JOVI</a>
-            <h2>FIAP Challenge 2026</h2>
-            <ul>
-                <li><a href="#solucao">A Solução</a></li>
-                <li><a href="publico_alvo">Público-Alvo</a></li>
-                <li><a href="#galeria"></a>Galeria</li>
-                <li><a href="#equipe"></a>Nossa Equipe</li>
-                <li><a href="#contato"></a>Contato</li>
-        
-            </ul>
-
-       </nav> 
+        <div class="container nav-container">
+            <div class="logo-area">
+                <a href="#comeco" class="logo">
+                    <img src="" alt="Ícone JOVI">
+                    JOVI AI
+                </a>
+                <span class="badge">FIAP Challenge 2026</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#solucao">A Solução</a></li>
+                    <li><a href="#publico_alvo">Público-Alvo</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#equipe">Nossa Equipe</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav> 
+            <a href="#demo" class="btn-demo">Ver Demonstração</a>
+        </div>
     </header>
 
-    <!-- HERO -->
-
-
-
-
-
     <main>
-
-        <section id="comeco">
-        <div class="texto-comeco">
-            <h1>
-                A Câmera que Pensa com Você. <br>
-                <span>Menos Modos, Mais Inteligência</span> 
-            </h1>
-            <p>
-                JOVI AI analisa o contexto da sua foto instantaneamente.<br>
-                Se é um documento, ele escaneia. Se é uma lousa, ele transcreve. Foco total no que importa.
-            </p>
-           
-            <h2> <500ms </h2>
-            <p>Detecção IA</p>   
-              
-            <h2> 100% </h2>
-            <p>Offline Capable</p> 
-        
-            <h2>1</h2>
-            <p>Toque Necessário</p>
-            
-            <img src="" alt="print ou imagem da câmera funcionando">
-        </div>
-        </section>
-
-
-        <section id="solucao">
-            <div class="texto-solução">
-
-                <h2>O Probleam vs <span>A Solução JOVI</span></h2>
-
-                <div class="card-problema">
-                    <img src="" alt="imagem de icone de perigo">
-                    <h2>O Problema Atual</h2>
-
-                    <img src="" alt="imagem de X">
-                    <p>Câmeras com 17+ modos manuais confusos.</p>
-
-                    <img src="" alt="imagem de X">
-                    <p>Descontinuação de ferramentas vitais como Microsoft Lens</p>
-
-                    <img src="" alt="imagem de X">
-                    <p>Organização caótica de fotos de estudos e recibos na galeria pessoa</p>
+        <!-- HERO -->
+        <section id="comeco" class="hero-section container">
+            <div class="hero-content">
+                <h1>A Câmera que Pensa com Você.<br><span>Menos Modos, Mais Inteligência.</span></h1>
+                <p>
+                    JOVI AI analisa o contexto da sua foto instantaneamente. Se é um documento, ele escaneia. Se é uma lousa, ele transcreve. Foco total no que importa.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h2>< 500ms</h2>
+                        <p>Detecção IA</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2>100%</h2>
+                        <p>Offline Capable</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2>1</h2>
+                        <p>Toque Necessário</p>
+                    </div>
                 </div>
-
-                <div class="card-solucao">
-                    <img src="" alt="imagem de icone de certinho">
-                    <h2>A Solução JOVI</h2>
-
-                    <img src="" alt="imagem de icone de brilinho">
-                    <p>IA Contextual: Detecta automaticamente o que você está fotografando.</p>
-
-                    <img src="" alt="imagem de icone de scanner">
-                    <p>Scanner Inteligente: OCR integrado, exportação para PDF e texto instantânea.</p>
-
-                    <img src="" alt="imagem de icone de organzição de arquivos">
-                    <p>Organização Automática: Separa suas fotos de trabalho/estudo da galeria pessoal.</p>
-
-                </div>
-
+            </div>
+            <div class="hero-image">
+                <img src="" alt="Interface da câmera JOVI no celular">
             </div>
         </section>
 
-        <section id="publico_alvo">
-            <div class="texto-publico">
-                <h2>Público-Alvo</h2>
-                <p>
-                    Focado em estudantes universitários e jovens profissionais (20+ anos) que <br>
+        <!-- SOLUÇÃO -->
+        <section id="solucao" class="solucao-section bg-light">
+            <div class="container">
+                <h2 class="section-title">O Problema vs <span>A Solução JOVI</span></h2>
+                <div class="cards-comparativo">
+                    <div class="card-problema">
+                        <div class="card-header">
+                            <img src="" alt="Alerta">
+                            <h3>O Problema Atual</h3>
+                        </div>
+                        <ul>
+                            <li><img src="" alt="X"> Câmeras com 17+ modos manuais confusos.</li>
+                            <li><img src="" alt="X"> Descontinuação de ferramentas vitais como Microsoft Lens.</li>
+                            <li><img src="" alt="X"> Organização caótica de fotos de estudos e recibos na galeria pessoal.</li>
+                        </ul>
+                    </div>
+
+                    <div class="card-solucao">
+                        <div class="card-header">
+                            <img src="" alt="Check">
+                            <h3>A Solução JOVI</h3>
+                        </div>
+                        <ul>
+                            <li><img src="" alt="Brilho"> <strong>IA Contextual:</strong> Detecta automaticamente o que você está fotografando.</li>
+                            <li><img src="" alt="Scanner"> <strong>Scanner Inteligente:</strong> OCR integrado, exportação para PDF e texto instantânea.</li>
+                            <li><img src="" alt="Pasta"> <strong>Organização Automática:</strong> Separa suas fotos de trabalho/estudo da galeria pessoal.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PÚBLICO ALVO -->
+        <section id="publico_alvo" class="publico-section container">
+            <div class="texto-publico center">
+                <h2 class="section-title">Público-Alvo</h2>
+                <p class="subtitle">
+                    Focado em estudantes universitários e jovens profissionais (20+ anos) que<br>
                     buscam eficiência máxima em sua rotina de aprendizado e trabalho.
                 </p>
-
-                <h2> 87% </h2>
-                <p>dos alunos fotografam o conteúdo das <br> aulas diariamente.</p>   
-              
-                <h2> 61% </h2>
-                <p>
-                    não fazem anotações manuais <br>
-                    tradicionais e dependem das fotos.
-                </p> 
-        
-                <h2>72%</h2>
-                <p>
-                    usam o celular mais de 4 horas por dia <br>
-                    em ambiente acadêmico/trabalho.
-                </p>
-
             </div>
 
-            <div class="card-publico-alvo">
-                <h2>Por que o MODO ESTUDO é essencial?</h2>
+            <div class="estatisticas-grid">
+                <div class="stat-card">
+                    <h2>87%</h2>
+                    <p>dos alunos fotografam o conteúdo das aulas diariamente.</p>
+                </div>
+                <div class="stat-card">
+                    <h2>61%</h2>
+                    <p>não fazem anotações manuais tradicionais e dependem das fotos.</p>
+                </div>
+                <div class="stat-card">
+                    <h2>72%</h2>
+                    <p>usam o celular mais de 4 horas por dia em ambiente acadêmico/trabalho.</p>
+                </div>
+            </div>
+
+            <div class="banner-azul">
+                <h3>Por que o JOVI é essencial?</h3>
                 <p>
-                    Reduzimos drasticamente a perda de conteúdo, eliminamos a necessidade de digitalização <br>
-                    manual e organizamos seus estudos de forma totalmente automática, permitindo que você foque <br>
-                    no que realmente importa: aprender.
+                    Reduzimos drasticamente a perda de conteúdo, eliminamos a necessidade de digitalização manual e organizamos seus estudos de forma totalmente automática, permitindo que você foque no que realmente importa: aprender.
                 </p>
             </div>
         </section>
 
         <!-- Galeria -->
+        <section id="galeria" class="galeria-section bg-light">
+            <div class="container">
+                <div class="center">
+                    <h2 class="section-title">Galeria de Recursos</h2>
+                    <p class="subtitle">Explore as funcionalidades que tornam o JOVI a câmera mais inteligente.</p>
+                </div>
 
-
-
-
-
-
+                <div class="galeria-layout">
+                    <div class="galeria-lista">
+                        <div class="recurso-item ativo">
+                            <img src="" alt="Scanner Icon">
+                            <div>
+                                <h3>Scanner & OCR</h3>
+                                <p>Transforme documentos borrados em PDFs nítidos com extração de texto instantânea.</p>
+                            </div>
+                        </div>
+                        <div class="recurso-item">
+                            <img src="" alt="IA Icon">
+                            <div>
+                                <h3>IA Contextual</h3>
+                                <p>A interface se adapta ao que você está fotografando. Modo de estudo detectado automaticamente.</p>
+                            </div>
+                        </div>
+                        <div class="recurso-item">
+                            <img src="" alt="Pasta Icon">
+                            <div>
+                                <h3>Organização Inteligente</h3>
+                                <p>Fotos separadas por contexto. Diga adeus à mistura de anotações com fotos pessoais.</p>
+                            </div>
+                        </div>
+                        <div class="recurso-item">
+                            <img src="" alt="Pet Icon">
+                            <div>
+                                <h3>Modo Pet</h3>
+                                <p>Captura perfeita para animais em movimento, utilizando sons de alta frequência para chamar a atenção.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="galeria-imagem">
+                        <img src="" alt="Demonstração do recurso selecionado na interface">
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Equipe -->
+        <section id="equipe" class="equipe-section container">
+            <div class="center">
+                <h2 class="section-title">Nossa Equipe</h2>
+                <p class="subtitle">Os talentos por trás da inteligência da câmera JOVI.</p>
+            </div>
 
+            <div class="cards-equipe">
+                <div class="membro-card">
+                    <img src="" alt="Victor Ulisses">
+                    <h3>Victor Ulisses</h3>
+                    <p class="cargo">Software Engineering</p>
+                    <p class="rm">RM: 572634</p>
+                </div>
+                <div class="membro-card">
+                    <img src="" alt="Henrique Giusti">
+                    <h3>Henrique Giusti</h3>
+                    <p class="cargo">UI/UX Design</p>
+                    <p class="rm">RM: 570766</p>
+                </div>
+                <div class="membro-card">
+                    <img src="" alt="Pietro Alexandre">
+                    <h3>Pietro Alexandre</h3>
+                    <p class="cargo">PM & ML</p>
+                    <p class="rm">RM: 571232</p>
+                </div>
+                <div class="membro-card">
+                    <img src="" alt="Pedro Moura">
+                    <h3>Pedro Moura</h3>
+                    <p class="cargo">Software Engineering</p>
+                    <p class="rm">RM: 570715</p>
+                </div>
+            </div>
+        </section>
 
+        <!-- Contato (Dark Section) -->
+        <section id="contato" class="contato-section bg-dark">
+            <div class="container contato-layout">
+                <div class="contato-info">
+                    <h2>Entre em Contato</h2>
+                    <p>
+                        Tem alguma dúvida sobre o JOVI AI? Nossa equipe está pronta para ajudar. Acesse também nossa documentação e repositório.
+                    </p>
 
+                    <ul class="contato-links">
+                        <li>
+                            <img src="" alt="Email">
+                            <div>
+                                <span>EMAIL INSTITUCIONAL</span>
+                                <a href="mailto:contato@joviai.fiap.com.br">contato@joviai.fiap.com.br</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="" alt="Code">
+                            <div>
+                                <span>REPOSITÓRIO</span>
+                                <a href="https://github.com/fiap-jovi-ai" target="_blank">github.com/fiap-jovi-ai</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="" alt="Docs">
+                            <div>
+                                <span>DOCUMENTAÇÃO API</span>
+                                <a href="https://docs.joviai.com.br" target="_blank">docs.joviai.com.br</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
 
-
-        <!-- Contato -->
-
-
-
-        
+                <div class="contato-form-card">
+                    <h3>Envie uma Mensagem</h3>
+                    <form action="#" method="POST">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" id="nome" placeholder="Seu nome completo">
+                            </div>
+                            <div class="input-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="seu.email@exemplo.com">
+                            </div>
+                        </div>
+                        
+                        <div class="input-group full-width">
+                            <label for="assunto">Assunto</label>
+                            <input type="text" id="assunto" placeholder="Como podemos ajudar?">
+                        </div>
+                        
+                        <div class="input-group full-width">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" placeholder="Escreva sua mensagem aqui..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="" alt="Ícone JOVI">
+                <strong>JOVI</strong>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2026 JOVI AI Camera - FIAP Challenge. All rights reserved.
+            </div>
 
+            <ul class="footer-links">
+                <li><a href="#privacidade">Privacidade</a></li>
+                <li><a href="#termos-de-uso">Termos de Uso</a></li>
+                <li><a href="#documentacao">Documentação API</a></li>
+            </ul>
+        </div>
+    </footer>
 
     <script src="./src/js/script.js"></script>
 </body>
