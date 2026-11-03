@@ -6,7 +6,7 @@ Na Sprint 4 a landing page da Sprint 03 foi passada de HTML, CSS e JavaScript pa
 
 ## Links
 
-- Deploy na Vercel: 
+- Deploy na Vercel: https://sprint3-front-end-zeta.vercel.app/
 - Repositório: https://github.com/grupo-vaph/sprint3-front-end
 
 ## Tecnologias utilizadas
