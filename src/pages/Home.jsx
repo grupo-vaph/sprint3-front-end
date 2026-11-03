@@ -1,3 +1,4 @@
+import Equipe from '../components/Equipe'
 import Galeria from '../components/Galeria'
 import Hero from '../components/Hero'
 import PublicoAlvo from '../components/PublicoAlvo'
@@ -10,6 +11,7 @@ function Home() {
       <Solucao />
       <PublicoAlvo />
       <Galeria />
+      <Equipe />
     </>
   )
 }
