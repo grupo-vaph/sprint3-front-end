@@ -1,3 +1,4 @@
+import Contato from '../components/Contato'
 import Equipe from '../components/Equipe'
 import Galeria from '../components/Galeria'
 import Hero from '../components/Hero'
@@ -12,6 +13,7 @@ function Home() {
       <PublicoAlvo />
       <Galeria />
       <Equipe />
+      <Contato />
     </>
   )
 }
