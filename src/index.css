@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+
+/* Paleta e fontes do JOVI (mesmas da Sprint 03) */
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Poppins', sans-serif;
+
+  --color-primary: #1a36c4;
+  --color-secondary: #112163;
+  --color-ink: #1d1f2e;
+  --color-muted: #6b7280;
+  --color-surface: #f8f9fc;
+  --color-line: #e5e7eb;
+  --color-night: #121a2f;
+  --color-night-deep: #0b1120;
+}
+
+@layer base {
+  body {
+    @apply bg-white font-sans leading-relaxed text-ink;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display text-secondary;
+  }
+
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+}
+
+/* Efeito de "flutuar" nos cards (antes era feito com JavaScript) */
+@utility hover-flutuar {
+  transition:
+    translate 300ms ease,
+    box-shadow 300ms ease;
+
+  @media (hover: hover) {
+    &:hover {
+      translate: 0 -10px;
+      box-shadow: 0 15px 30px rgb(0 0 0 / 0.15);
+    }
+  }
+}
