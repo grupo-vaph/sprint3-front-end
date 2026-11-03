@@ -6,7 +6,7 @@ Na Sprint 4 a landing page da Sprint 03 foi passada de HTML, CSS e JavaScript pa
 
 ## Links
 
-- Deploy na Vercel: (colocar o link aqui depois do deploy)
+- Deploy na Vercel: 
 - Repositório: https://github.com/grupo-vaph/sprint3-front-end
 
 ## Tecnologias utilizadas
@@ -100,7 +100,7 @@ src/
 
 ## Uso de IA no projeto
 
-Usamos o Claude, uma IA da Anthropic, como apoio nesta sprint. Ele ajudou a planejar como passar o projeto de HTML/CSS para React com Tailwind, a separar a lógica em hooks customizados, a montar o login com a rota privada, a criar os dados da API mockada de capturas e a escrever este README. O grupo revisou e testou o código e fez os commits, e o conteúdo, o visual e a ideia do JOVI continuam sendo os que a equipe criou nas sprints anteriores.
+Usamos o Claude como apoio nesta sprint. Ele ajudou a planejar como passar o projeto de HTML/CSS para React com Tailwind, a separar a lógica em hooks customizados, a montar o login com a rota privada, a criar os dados da API mockada de capturas e a escrever este README. Nós do grupo revisamos e testamos o código e fizemos os commits, e o conteúdo, o visual e a ideia do JOVI continuam sendo os que a equipe criou nas sprints anteriores.
 
 ## Integrantes
 
