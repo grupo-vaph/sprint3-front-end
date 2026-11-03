@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "titulo": "Web Development: ciclo de vida do React",
+    "tipo": "lousa",
+    "categoria": "estudo",
+    "data": "2026-10-30T19:40:00-03:00",
+    "confianca": 0.97,
+    "textoExtraido": "Montagem, atualização e desmontagem. O useEffect roda depois da renderização e a função de limpeza roda antes do componente sair da tela."
+  },
+  {
+    "id": 2,
+    "titulo": "Contrato de estágio: cláusulas principais",
+    "tipo": "documento",
+    "categoria": "trabalho",
+    "data": "2026-10-29T14:05:00-03:00",
+    "confianca": 0.99,
+    "textoExtraido": "Jornada de 6 horas diárias, bolsa-auxílio mensal e recesso remunerado de 30 dias a cada 12 meses de estágio."
+  },
+  {
+    "id": 3,
+    "titulo": "Recibo: restaurante universitário",
+    "tipo": "recibo",
+    "categoria": "financeiro",
+    "data": "2026-10-29T12:32:00-03:00",
+    "confianca": 0.95,
+    "textoExtraido": "Prato executivo + suco natural. Total: R$ 27,90. Pagamento via Pix."
+  },
+  {
+    "id": 4,
+    "titulo": "Front-End Design: Flexbox vs Grid",
+    "tipo": "lousa",
+    "categoria": "estudo",
+    "data": "2026-10-27T20:10:00-03:00",
+    "confianca": 0.93,
+    "textoExtraido": "Flexbox organiza em uma dimensão (linha ou coluna). Grid organiza em duas dimensões. Use Grid para o layout da página e Flexbox para os componentes."
+  },
+  {
+    "id": 5,
+    "titulo": "Edital do FIAP Challenge 2026",
+    "tipo": "documento",
+    "categoria": "estudo",
+    "data": "2026-10-24T09:15:00-03:00",
+    "confianca": 0.98,
+    "textoExtraido": "As entregas acontecem por sprints. Cada sprint deve evoluir a mesma solução proposta pela equipe no início do Challenge."
+  },
+  {
+    "id": 6,
+    "titulo": "Banco de Dados: normalização (1FN a 3FN)",
+    "tipo": "lousa",
+    "categoria": "estudo",
+    "data": "2026-10-22T21:00:00-03:00",
+    "confianca": 0.91,
+    "textoExtraido": "1FN: valores atômicos. 2FN: sem dependência parcial da chave. 3FN: sem dependência transitiva entre atributos não chave."
+  },
+  {
+    "id": 7,
+    "titulo": "Nota fiscal: livro Código Limpo",
+    "tipo": "recibo",
+    "categoria": "financeiro",
+    "data": "2026-10-20T16:48:00-03:00",
+    "confianca": 0.96,
+    "textoExtraido": "1 unidade - Código Limpo, Robert C. Martin. Valor: R$ 89,90. Frete grátis."
+  },
+  {
+    "id": 8,
+    "titulo": "Ata da reunião de planejamento da sprint",
+    "tipo": "documento",
+    "categoria": "trabalho",
+    "data": "2026-10-18T10:30:00-03:00",
+    "confianca": 0.94,
+    "textoExtraido": "Definido o uso de React e Tailwind CSS. Tarefas divididas entre componentes, rotas, autenticação e deploy."
+  },
+  {
+    "id": 9,
+    "titulo": "Cálculo: limites e continuidade",
+    "tipo": "lousa",
+    "categoria": "estudo",
+    "data": "2026-10-15T19:20:00-03:00",
+    "confianca": 0.89,
+    "textoExtraido": "Uma função é contínua em a quando o limite de f(x) com x tendendo a a existe e é igual a f(a)."
+  },
+  {
+    "id": 10,
+    "titulo": "Comprovante: mensalidade de outubro",
+    "tipo": "recibo",
+    "categoria": "financeiro",
+    "data": "2026-10-05T08:02:00-03:00",
+    "confianca": 0.97,
+    "textoExtraido": "Pagamento confirmado. Referência: outubro/2026. Forma de pagamento: boleto bancário."
+  },
+  {
+    "id": 11,
+    "titulo": "Briefing do cliente: app de delivery",
+    "tipo": "documento",
+    "categoria": "trabalho",
+    "data": "2026-10-02T15:45:00-03:00",
+    "confianca": 0.92,
+    "textoExtraido": "O cliente quer um fluxo de pedido em até três toques, com rastreio em tempo real e pagamento salvo no perfil."
+  },
+  {
+    "id": 12,
+    "titulo": "Python: list comprehensions",
+    "tipo": "lousa",
+    "categoria": "estudo",
+    "data": "2026-09-30T20:35:00-03:00",
+    "confianca": 0.9,
+    "textoExtraido": "quadrados = [n ** 2 for n in range(10) if n % 2 == 0] cria a lista dos quadrados dos números pares de 0 a 9."
+  }
+]
